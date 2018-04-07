@@ -6,12 +6,12 @@ print("Hi! Im JAI.")
 #commands
 while True:
     command = input("Say something ")
-    if command == "Hi" or command == "hi":
+    if command == "Hi" or command == "hi" or command == "Good day" or command == "hello there" or command == "Good morning":
         print("Hi!")
     elif command == "What you can do?":
         print("Im on beta. There's only english language, but there will apear new languages. Same with commands.")
     elif command == "What means JAI?":
-        print('Nevermind')
+        print("You don't need to know")
     elif command == "bye":
         print("Bye")
         time.sleep(3)
